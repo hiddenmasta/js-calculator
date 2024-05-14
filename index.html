@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="javascript.js"></script>
+    </head>
+    <body>
+        <div id="calculator">
+            <input id="input" readonly>
+            <div id="buttons">
+                <button onclick="AppendToInput('7')">7</button>
+                <button onclick="AppendToInput('8')">8</button>
+                <button onclick="AppendToInput('9')">9</button>
+                <button class="operator" onclick="AppendToInput('-')">-</button>
+                <button onclick="AppendToInput('4')">4</button>
+                <button onclick="AppendToInput('5')">5</button>
+                <button onclick="AppendToInput('6')">6</button> 
+                <button class="operator" onclick="AppendToInput('+')">+</button>
+                <button onclick="AppendToInput('1')">1</button>
+                <button onclick="AppendToInput('2')">2</button>
+                <button onclick="AppendToInput('3')">3</button> 
+                <button class="operator" onclick="AppendToInput('/')">/</button>
+                <button onclick="Submit()">=</button>
+                <button onclick="AppendToInput('0')">0</button>
+                <button onclick="AppendToInput('.')">.</button>
+                <button class="operator" onclick="AppendToInput('*')">*</button>
+                <button class="operator" onclick="ClearInput()">C</button>
+            </div>
+        </div>
+    </body>
+</html>
